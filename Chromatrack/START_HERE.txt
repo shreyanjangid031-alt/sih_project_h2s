@@ -1,0 +1,25 @@
+CHROMATRACK — QUICK START
+
+This ZIP contains the full React / TypeScript / Tailwind frontend, components,
+Recharts charts, image assets, API interfaces, and package lockfile.
+
+1. Install Node.js 24 LTS (or a compatible Node release >=22.13).
+2. Install the matching package manager: npm install --global pnpm@11.25.0
+3. Extract this ZIP and open a terminal in the Chromatrack folder.
+4. Run: pnpm install --frozen-lockfile
+5. Run: pnpm dev
+6. Open http://localhost:5173 and choose Explore demo.
+
+To create a production build: pnpm build
+
+The app requires a development server; it is not a single HTML file to
+open by double-clicking. Internet access is required to install dependencies.
+Camera capture requires camera permission and a supported browser.
+
+All analysis output is fixed, labelled demo data. Real authentication,
+image-analysis and device services are not connected. Records and images
+are saved only in the browser where you use the app.
+
+See README.md for architecture, API integration boundaries and limitations.
+The hosted project's identifier, dependencies folder, build outputs,
+credentials and local user data are deliberately excluded from this export.
